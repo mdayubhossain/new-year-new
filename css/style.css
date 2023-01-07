@@ -1,0 +1,300 @@
+/*common css start*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+/*common css end*/
+
+/*---------header part css start------------*/
+/*banner part css*/
+header {
+  background: url(../images/banner/banner2.png) no-repeat center;
+  background-size: cover;
+  padding: 216px 0 167px 0;
+  text-align: right;
+}
+.banner_content .heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  width: 525px;
+  margin: 0 0 15px auto;
+}
+.banner_content .h_description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  width: 494px;
+  margin: 0 0 20px auto;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner_content button {
+  background-color: #f15b22;
+  padding: 15px 25px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+/*---------header part css end------------*/
+/*---------main part css start------------*/
+/*failur part css*/
+#previous_year_failures {
+  margin: 130px 0;
+}
+.previous_failures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.failures_description .heading_of_fail_de {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  width: 288px;
+  margin-bottom: 20px;
+}
+.failures_description .pararagraph_of_fail_des {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  width: 416px;
+  margin-bottom: 8px;
+}
+.failures_description ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failures_description ul li i {
+  color: #16d887;
+  font-size: 15px;
+}
+
+/*my plans css*/
+#my_plans {
+  margin: 100px auto;
+}
+.plans_sec {
+  display: flex;
+  justify-content: space-between;
+}
+.plans_sec .icon {
+  text-align: center;
+}
+.plans_sec .name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin: 20px 0 15px 0;
+}
+.plans_sec .wish {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/*--call for positive mindset----*/
+#for_more_call {
+  margin-bottom: 100px;
+}
+.positive_mindset {
+  background: url(../images/gradient2.png),
+    url(../images/watch.png) no-repeat center;
+  background-size: cover;
+  padding: 60px auto;
+  z-index: 1;
+}
+.positive_mindset .content_positive_mind {
+  padding: 55px;
+}
+.positive_mindset .content_positive_mind h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  width: 459px;
+  color: #ffffff;
+}
+.positive_mindset .content_positive_mind button {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #f15b22;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/*---------main part css end------------*/
+
+/*--------fotter part css start-------------*/
+footer {
+  background-color: #151414;
+}
+.footer_main {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f15b22;
+}
+
+.footer_main .footer_left h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.footer_main .footer_left p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 485px;
+  margin: 15px 0;
+}
+.footer_main .footer_left h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 5px 0;
+}
+.footer_main .footer_left .social_site {
+  display: flex;
+}
+.footer_main .footer_left .social_site li {
+  margin-right: 15px;
+}
+
+.footer_main .footer_right h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footer_main .footer_right input {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #151414;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+::placeholder {
+  color: #ffffff;
+}
+.footer_main .footer_right button {
+  padding: 10px 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/*copyright part*/
+.copy_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.copy_main .copy_left {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+.copy_main .copy_right{
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+.copy_main a{
+  color: #f15b22;
+}
+/*--------fotter part css end-------------*/
